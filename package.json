@@ -1,0 +1,22 @@
+{
+  "name": "micaelr95.github.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "scripts": {
+    "build": "postcss style.css > style.min.css && npx uglifyjs script.js --compress --mangle --output script.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micaelr95/micaelr95.github.io.git"
+  },
+  "author": "Micael Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micaelr95/micaelr95.github.io/issues"
+  },
+  "homepage": "https://github.com/micaelr95/micaelr95.github.io#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "uglify-js": "^3.4.9"
+  }
+}
