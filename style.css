@@ -1,0 +1,30 @@
+html body {
+    background-color: #212529;
+    width: 1500px;
+    margin: auto;
+    font-size: 13px;
+}
+
+div {
+    margin-bottom: 30px !important;
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    text-align: justify;
+    margin-bottom: 50px; 
+}
+
+.nes-list.is-disc li::before {
+    color: white;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    margin: 30px auto;
+    vertical-align: middle;
+}
