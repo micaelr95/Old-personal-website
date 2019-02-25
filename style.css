@@ -19,6 +19,15 @@ div {
     margin-bottom: 50px; 
 }
 
+.content a {
+    text-decoration: none;
+    color: #81a2be;
+}
+
+.content a:hover {
+    color: #4271ae;
+}
+
 .nes-list.is-disc li::before {
     color: white;
 }
